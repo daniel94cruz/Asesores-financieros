@@ -1,0 +1,308 @@
+*{padding: 0;
+    margin: 0;
+}
+
+.contenedor1{
+    width: 100vw;
+    height: 100vh;
+    /* border: 10px solid black; */
+    background-image: url(/Recursos/imagenFondo1.jpg);
+    background-size:cover;
+
+}
+
+.logo_peque{
+    width: 120px;
+    height: 80px;
+    position: relative;
+    left: 75px;
+    /* bottom: 10px; */
+    
+}
+.contenedor_texto{
+    width: 500px;
+    height: 280px;
+    /* border: 2px solid black; */
+    position: relative;
+    left: 50px;
+    top: 90px;
+}
+h1{
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+p{
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.imagen_AXIA{
+    width: 250px;
+    height: 175px;
+    position: relative;
+    left: 665px;
+    bottom: 140px;
+
+}
+.contenedor2{
+    width: 100vw;
+    height: 100vh;
+    /* border: 10px solid black; */
+    background-image: url(/Recursos/Fondo2.png);
+    background-size:100%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    
+
+}
+.h1_expertos{
+    color:blue;
+    /* border: 5px solid black; */
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    flex-grow: 1;
+    text-align: center;
+    padding-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #04102b;
+
+    
+
+}
+
+.img_daniel{
+    width: 250px;
+    height: 250px;
+    /* border: 1px solid black; */
+    flex-grow: 1;
+    margin-left: 20%;
+
+    
+}
+
+.img_leydy{
+    width: 250px;
+    height: 250px;
+    /* border: 1px solid black; */
+    flex-grow: 1;
+    margin-right: 20%;
+}
+
+.parrafo_daniel{
+     color: blue;
+     font-size: 10px;
+     font-style: oblique;
+     width: 210px;
+     /* border: 5px solid black; */
+     height: 100px;
+    color: #04102b;
+     margin-left: 22%;
+
+
+}
+
+.parrafo_leydy{
+    color: blue;
+    font-size: 10px;
+    font-style: oblique;
+    width: 210px;
+    /* border: 5px solid black; */
+    height: 100px;
+    color: #04102b;
+    
+    margin-left: 115px;
+}
+
+
+.contenedor3{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/Recursos/Fondo3.png);
+    background-size:100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    outline:2px solid #000456;
+    
+}
+.formulario{
+    width: 300px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    /* flex-direction: column; */
+    margin-left: 50px;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+   text-align: center;
+    /* align-content: center; */
+    
+   
+}
+
+input{
+    width: 270px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #000456;
+    margin: 5px;
+    color:white;
+}
+
+::placeholder {
+    color: #fff; 
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+
+
+
+
+input:focus{
+    background-color:#333;
+    outline: none;
+}
+
+.contenedor_izquierda{
+    width: 50%;
+    height: 80%;
+    /* border: 10px solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around
+
+   
+}
+
+.h1_contactanos{
+
+
+margin-left: 10px;
+border: 2px solid white;
+width: 185px;
+border-radius: 5px;
+padding-left: 5px;
+padding-right: 5px;
+
+border-color: #fcfcfc;
+
+}
+.parrafo3{
+   
+    width: 50%;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:lighter;
+   
+}
+
+span{
+    color:#04102b;
+    display: block;
+    width: 200px;
+    /* border: 1px solid black; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    
+
+}
+
+h1.masInfo{
+    color: #04102b;
+    font-size: 20px;
+    height: 30px;
+    border-radius: 5px;
+    width: 300px;
+    background-color: #B4B9CD;
+    line-height: 30px;
+    text-align: center;
+    position: relative;
+    left: 600px;
+    bottom: 60px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.contenedor4{
+    width: 100vw;
+    height: 50vh;
+    background-image: url(/Recursos/imagenFondo4.jpg);
+    border:1px solid #000456;
+    background-size:cover;
+    display: flex;
+}
+
+div.cont-ultimo{
+    /* border: 2px solid green; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-left: 20px;
+}
+h1.quienes{
+    border:2px solid white;
+    border-radius: 5px;
+    width: 45%;
+    text-align: center;
+
+}
+p.parrafo_final{
+    width: 50%;
+}
+
+
+div.contenedor_derecho{
+    width: 50%;
+    display: flex;
+    
+}
+div.imagenes_redesSociales{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.imag_ubicacion{
+    width: 60px;
+    height: 230px;
+}
+
+div.clase_datos{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    justify-content: space-around;
+    align-items:flex-start;
+   
+
+}
+
+span.datos{
+    width: 80%;
+    color: white;
+    
+    margin: 0;
+}
