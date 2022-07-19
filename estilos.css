@@ -50,7 +50,7 @@ p{
     width: 100vw;
     height: 100vh;
     /* border: 10px solid black; */
-    background-image: url(/Recursos/Fondo2.png);
+    background-image: url(/Recursos/fondo2.png);
     background-size:100%;
     display:flex;
     flex-direction:row;
@@ -121,7 +121,7 @@ p{
 .contenedor3{
     width: 100vw;
     height: 100vh;
-    background-image: url(/Recursos/Fondo3.png);
+    background-image: url(/Recursos/fondo3.png);
     background-size:100%;
     display: flex;
     flex-wrap: wrap;
@@ -306,3 +306,87 @@ span.datos{
     
     margin: 0;
 }
+
+/* responsive celular */ 
+@media (max-width: 475px) {
+    .logo_peque{
+        width: 100px;
+        height: 80px;
+        left: 150px;
+        top:10px;
+       
+        
+    }
+    .contenedor_texto{
+        width: 200px;
+        height: 280px;
+        left: 50px;
+        top: 90px;
+        font-size: 5px;
+    }
+
+    .imagen_AXIA{
+        display: none;
+    }
+
+    .h1_expertos{
+        width: 65px;
+        font-size: 15px;
+
+
+    }
+    .img_daniel{
+        width: 150px;
+        height: 170px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    
+    .img_leydy{
+        width: 150px;
+        height: 170px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+
+  }
+/* resposive ipad  */
+  @media (max-width: 600px) {
+    .logo_peque{
+        width: 120px;
+        height: 80px;
+        position: relative;
+        left: 120px;
+        top:10px
+    }
+
+    .contenedor_texto{
+        width: 200px;
+        height: 280px;
+        /* border: 2px solid black; */
+        position: relative;
+        left: 50px;
+        top: 90px;
+    }
+    .imagen_AXIA{
+        display: none;
+    }
+
+    .h1_expertos{
+        width: 240px;
+        font-size: 15px;
+
+
+
+
+
+
+  }
+
+
+  }
