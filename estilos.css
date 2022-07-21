@@ -372,12 +372,14 @@ span.datos{
 
     .parrafo_daniel{
      margin-bottom: 40px;
-     font-size: 8px;
+     font-size: 5px;
+     height: 100px;
+     
     }
 
     .parrafo_leydy{
         margin-left: 10px;
-        font-size: 8px;
+        font-size: 5px;
     }
 
     .contenedor_izquierda{
