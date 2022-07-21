@@ -320,7 +320,7 @@ span.datos{
 }
 
 /* responsive celular */ 
-@media (max-width: 390px) {
+@media (max-width: 391px) {
     .logo_peque{
         width: 100px;
         height: 80px;
@@ -331,11 +331,15 @@ span.datos{
     }
     .contenedor_texto{
         width: 200px;
-        height: 280px;
+        height: 200px;
         left: 50px;
         top: 90px;
         font-size: 5px;
     }
+    p{
+        font-size: 17px;
+    }
+
 
     .imagen_AXIA{
         display: none;
