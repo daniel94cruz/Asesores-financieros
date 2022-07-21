@@ -372,10 +372,12 @@ span.datos{
 
     .parrafo_daniel{
      margin-bottom: 40px;
+     font-size: 8px;
     }
 
     .parrafo_leydy{
         margin-left: 10px;
+        font-size: 8px;
     }
 
     .contenedor_izquierda{
@@ -385,6 +387,10 @@ span.datos{
     h1.quienes{
         width: 90%;
        
+    }
+
+    h1.masInfo{
+        display: none;
     }
     div.cont-ultimo{
         width: 100%;
