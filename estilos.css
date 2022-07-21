@@ -2,6 +2,9 @@
     margin: 0;
 }
 
+
+
+
 .contenedor1{
     width: 100vw;
     height: 100vh;
@@ -51,22 +54,23 @@ p{
     height: 100vh;
     /* border: 10px solid black; */
     background-image: url(https://daniel94cruz.github.io/Asesores-financieros1/resources/imagen2.png);
-    background-size:100%;
+    background-size:cover;
     display:flex;
     flex-direction:row;
     flex-wrap: wrap;
+    justify-content: center;
     
 
 }
 .h1_expertos{
     color:blue;
-    /* border: 5px solid black; */
+    border: 5px solid black;
     margin: 0;
     width: 100%;
     height: 50px;
     flex-grow: 1;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
     color: #04102b;
 
@@ -76,9 +80,9 @@ p{
 
 .img_daniel{
     width: 250px;
-    height: 250px;
+    height: 200px;
     /* border: 1px solid black; */
-    flex-grow: 1;
+    
     margin-left: 20%;
 
     
@@ -86,9 +90,9 @@ p{
 
 .img_leydy{
     width: 250px;
-    height: 250px;
-    /* border: 1px solid black; */
-    flex-grow: 1;
+    height: 200px;
+    border: 1px solid black;
+   
     margin-right: 20%;
 }
 
@@ -97,10 +101,10 @@ p{
      font-size: 10px;
      font-style: oblique;
      width: 210px;
-     /* border: 5px solid black; */
-     height: 100px;
+     border: 5px solid black;
+     height: 120px;
     color: #04102b;
-     margin-left: 22%;
+  
 
 
 }
@@ -110,11 +114,12 @@ p{
     font-size: 10px;
     font-style: oblique;
     width: 210px;
-    /* border: 5px solid black; */
+    border: 5px solid black;
     height: 100px;
     color: #04102b;
+    padding-left: 30px;
     
-    margin-left: 115px;
+   
 }
 
 
@@ -122,7 +127,7 @@ p{
     width: 100vw;
     height: 100vh;
     background-image: url(https://daniel94cruz.github.io/Asesores-financieros1/resources/fondo3.png);
-    background-size:100%;
+    background-size:cover;
     display: flex;
     flex-wrap: wrap;
     align-items:center;
@@ -135,13 +140,13 @@ p{
     border: 2px solid white;
     border-radius: 10px;
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     margin-left: 50px;
     flex-direction: column;
     background-color: white;
     justify-content: center;
    text-align: center;
-    /* align-content: center; */
+    
     
    
 }
@@ -155,6 +160,12 @@ input{
     color:white;
 }
 
+input.boton{
+    width:100px;
+    color:#04102b;
+    background-color: white;
+    font-weight: bold;
+}
 ::placeholder {
     color: #fff; 
     text-align: center;
@@ -173,7 +184,7 @@ input:focus{
 .contenedor_izquierda{
     width: 50%;
     height: 80%;
-    /* border: 10px solid white; */
+    border: 10px solid white;
     display: flex;
     flex-direction: column;
     justify-content:space-around
@@ -250,7 +261,7 @@ h1.masInfo{
 }
 
 div.cont-ultimo{
-    /* border: 2px solid green; */
+    border: 2px solid green;
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -273,6 +284,7 @@ p.parrafo_final{
 div.contenedor_derecho{
     width: 50%;
     display: flex;
+    border: 2px solid white;
     
 }
 div.imagenes_redesSociales{
@@ -308,7 +320,7 @@ span.datos{
 }
 
 /* responsive celular */ 
-@media (max-width: 475px) {
+@media (max-width: 390px) {
     .logo_peque{
         width: 100px;
         height: 80px;
@@ -337,19 +349,78 @@ span.datos{
     }
     .img_daniel{
         width: 150px;
-        height: 170px;
-        margin-left: auto;
-        margin-right: auto;
-
+        height: 180px;
+        margin-left: 1px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+        
+        
     }
 
     
     .img_leydy{
         width: 150px;
         height: 170px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 130px;
+        margin-bottom: 30px;
+        
     }
+
+    .parrafo_daniel{
+     margin-bottom: 40px;
+    }
+
+    .parrafo_leydy{
+        margin-left: 10px;
+    }
+
+    .contenedor_izquierda{
+        width: 100%;
+        height: 30%;
+    }
+    h1.quienes{
+        width: 90%;
+       
+    }
+    div.cont-ultimo{
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        margin-left: 0;
+        justify-content: space-around;
+
+
+    }
+    p.parrafo_final{
+        width: 100%;
+        height: 100px;
+        font-size: 15px;
+    }
+
+    div.contenedor_derecho{
+        align-items: center;
+        justify-content: center;
+    }
+    div.imagenes_redesSociales{
+        height: 50%;
+    }
+    div.clase_datos{
+        height: 50%;
+    }
+    span.datos{
+        margin-bottom: 4px;
+        margin-top: 6px;
+    }
+
+    span.tel{
+        font-size: 12px;
+        padding-bottom: 3px;
+        
+    }
+
+
+
+
 
 
 
@@ -387,6 +458,38 @@ span.datos{
 
 
   }
+
+
+  }
+
+  @media (max-width: 841px) {
+    .img_daniel{
+        width: 130px;
+        height: 120px;
+        margin-left: 27%;
+        margin-right: 5%;
+       
+
+    }
+    .img_leydy{
+        width: 130px;
+        height: 120px;
+        
+   
+    }
+    .contenedor2{
+        align-content: flex-start;
+        justify-content: center;
+    }
+    .parrafo_daniel{
+        width: 150px;
+        height: 120px;
+        margin-left: 50px;
+    }
+    .parrafo_leydy{
+        width: 150px;
+        height: 120px;
+    }
 
 
   }
